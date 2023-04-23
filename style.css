@@ -1,3 +1,7 @@
+* {
+    /* border: 2px solid red; */
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -8,6 +12,10 @@ body {
 header,.hero-area, footer {
     background-color: #1F2937;
     color: white;
+}
+
+p {
+    margin: 0;
 }
 
 header {
@@ -42,12 +50,13 @@ a {
 button {
     background-color: #3b82f6;
     color: white;
-    border: 0;
     padding: 4px 18px;
     border-radius: 4px;
-    border: 0.5px solid white;
 }
 
+button:hover {
+    background-color: #9db9e7;
+}
 
 .hero-area {
     /* height: 350px; */
@@ -73,11 +82,9 @@ button {
 .main-text {
     font-size: 48px;
     color: #f9faf8;
-    margin: 0;
 }
 
 .secondary-text {
-    margin: 0;
     color: #e5e7eb;
     font-size: 18px;
     margin-bottom: 8px;
@@ -94,9 +101,6 @@ button {
     font-weight: bolder;
 }
 
-.subtext {
-    margin: 0;
-}
 
 .illustrations {
     display: flex;
@@ -120,10 +124,6 @@ button {
     /* height: 350px; */
     padding: 84px 100px;
     background-color: #e5e7eb;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .text {
@@ -135,12 +135,30 @@ button {
 }
 
 .author {
+    text-align: right;
     margin: 0;
-    align-self: flex-end;
     font-size: large;
     font-weight: 800;
 }
 
+
+.call-to-action {
+    padding: 72px 100px;
+    color: white;
+}
+
+.call-to-action button {
+    border: 1.5px solid white;
+}
+
+.container {
+    background-color: #3b82f6;
+    padding: 28px 80px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
 
 footer {
     height: 72px;
