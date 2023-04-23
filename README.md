@@ -1,3 +1,3 @@
 # TOP-landing-page
-HTML &amp; css learning project.
+HTML &amp; CSS learning project.
 https://halfway-there1.github.io/TOP-landing-page/
